@@ -1,13 +1,13 @@
-import meImg from "../assets/me.jpeg";
+import meImg from "../assets/me.jpg";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
 
 import React from "react";
 
 const Me = () => {
   return (
-    <div className="bg-sky-100 py-0">
-      <div className="align-items grid md:grid-cols-2  items-center gap-16">
-        <article className="z-10">
+    <div className="bg-sky-100 py-0 background h-96">
+      <div className="align-items grid md:grid-cols-2  items-center gap-36 pt-10 ">
+        <article className="z-10 bg-sky-100 ">
           <h1 className="text-7xl font-bold tracking-wider">I'm Aishwarya</h1>
           <p className="mt-4 text-3xl text-slate-700 capitalize tracking-wide ">
             Front-end Developer
@@ -32,13 +32,7 @@ const Me = () => {
         </article>
         <article className="hidden md:block">
           <div>
-            <img
-              src={meImg}
-              className="object-cover h-72 w-72 rounded-full absolute right-99 top-36 z-10"
-            />
-
-            <div className=" h-96 w-96 rounded-full border-2 border-sky-600 flex justify-center  items-center relative right-14 top-24 z-0"></div>
-            <div className=" bg-sky-600 h-28 w-28 rounded-full border-2 border-sky-600 flex relative left-72 bottom-36 z-0"></div>
+            <img src={meImg} className="object-cover h-72 w-72 rounded-full" />
           </div>
         </article>
       </div>

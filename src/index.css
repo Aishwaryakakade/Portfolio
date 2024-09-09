@@ -7,3 +7,9 @@
     @apply mx-auto max-w-7xl px-8;
   }
 }
+
+.background {
+  background-image: url("/src/assets/blue.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

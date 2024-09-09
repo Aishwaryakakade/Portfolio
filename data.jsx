@@ -1,31 +1,28 @@
 import { nanoid } from "nanoid";
-import { FaHtml5, FaJs, FaReact } from "react-icons/fa";
+import {
+  FaHtml5,
+  FaJs,
+  FaReact,
+  FaAngular,
+  FaSass,
+  FaCss3Alt,
+  FaLinux,
+  FaGitAlt,
+} from "react-icons/fa";
+import { SiTypescript } from "react-icons/si";
 
-export const links = [
-  { id: nanoid(), href: "#home", text: "home" },
-  { id: nanoid(), href: "#skills", text: "skills" },
-  { id: nanoid(), href: "#about", text: "about" },
-  { id: nanoid(), href: "#projects", text: "projects" },
-];
-
-export const skills = [
+export const experience = [
   {
     id: nanoid(),
-    title: "HTML&CSS",
-    icon: <FaHtml5 className="h-16 w-16 text-sky-600" />,
-    text: "Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.",
+    title: "Junior Software Engineer",
+    time: "09/2019 - 7/2022",
+    text: "Developed and maintained Angular applications, focusing on UI integration, legacy code migration, and collaborating with senior engineers. Proficient in creating responsive, pixel-perfect websites",
   },
   {
     id: nanoid(),
-    title: "Javascript",
-    icon: <FaJs className="h-16 w-16 text-sky-600" />,
-    text: "Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality",
-  },
-  {
-    id: nanoid(),
-    title: "React",
-    icon: <FaReact className="h-16 w-16 text-sky-600" />,
-    text: "Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.",
+    title: "Associate Software Engineer",
+    time: "08/2022 - present",
+    text: "Developed dynamic and interactive web applications utilizing Angular, and React. Work included integrating RESTful APIs, employing D3.js for complex data visualizations, and implementing advanced authentication mechanisms such as JWT and Auth0. Collaborated closely with UI/UX designers to refine interfaces, and used tools like Hotjar and Google Analytics to analyze and improve website performance.",
   },
 ];
 

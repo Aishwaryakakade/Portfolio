@@ -1,5 +1,7 @@
 import React from "react";
 import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+
+import { DiAngularSimple } from "react-icons/di";
 import { TbWorldWww } from "react-icons/tb";
 
 function ProjectsCard({ url, img, github, title, text }) {
