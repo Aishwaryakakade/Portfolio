@@ -7,7 +7,7 @@ import ExperienceCard from "./experience";
 function About() {
   return (
     <section className="bg-white align-items p-8  " id="experience">
-      <div className="align-elemet grid md:grid-cols-2 items-start gap-24">
+      <div className="align-elemet grid md:grid-cols-2 items-center gap-24">
         <img src={aboutSvg} className="w-full h-64" />
         <article>
           <SectionTitle text="Experience" />

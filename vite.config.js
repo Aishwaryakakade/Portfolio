@@ -8,6 +8,7 @@ export default defineConfig({
       include: "**/*.jsx",
     }),
   ],
+  assetsInclude: ["**/*.docx"], // Include .docx files as assets
   server: {
     watch: {
       usePolling: true,

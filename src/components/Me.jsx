@@ -22,7 +22,10 @@ const Me = () => {
             <a href="https://github.com/Aishwaryakakade" target="_blank">
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300"></FaGithubSquare>
             </a>
-            <a href="https://www.linkedin.com/in/aishwarya-lk-03807914b/">
+            <a
+              href="https://www.linkedin.com/in/aishwarya-lk-03807914b/"
+              target="_blank"
+            >
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300"></FaLinkedin>
             </a>
             {/* <a href="#">

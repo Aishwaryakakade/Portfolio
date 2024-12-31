@@ -14,15 +14,19 @@ function ProjectsCard({ url, img, github, title, text }) {
       />
 
       <div className="capitalize p-8">
-        <h2>{title}</h2>
+        <h3 className="text-lg  font-semibold">{title}</h3>
         <p>{text}</p>
         <div className="mt-4 flex gap-x-4">
-          <a href={url}>
-            <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300 " />
-          </a>
-          <a href={github}>
-            <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300 " />
-          </a>
+          {url && (
+            <a href={url} target="_blank">
+              <TbWorldWww className="h-8 w-8 text-slate-500 hover:text-black duration-300 " />
+            </a>
+          )}
+          {github && (
+            <a href={github} target="_blank">
+              <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300 " />
+            </a>
+          )}
         </div>
       </div>
     </article>
