@@ -19,15 +19,15 @@ const Me = () => {
             dynamic web designs.
           </p>
           <div className="flex gap-x-4 mt-4">
-            <a href="#">
+            <a href="https://github.com/Aishwaryakakade" target="_blank">
               <FaGithubSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300"></FaGithubSquare>
             </a>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/aishwarya-lk-03807914b/">
               <FaLinkedin className="h-8 w-8 text-slate-500 hover:text-black duration-300"></FaLinkedin>
             </a>
-            <a href="#">
+            {/* <a href="#">
               <FaTwitterSquare className="h-8 w-8 text-slate-500 hover:text-black duration-300"></FaTwitterSquare>
-            </a>
+            </a> */}
           </div>
         </article>
         <article className="hidden md:block">
