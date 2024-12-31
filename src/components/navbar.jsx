@@ -26,7 +26,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <a href="">
+        <a href={Resume} download="Resume" target="_blank">
           <button className="resume-btn">Resume</button>
         </a>
       </div>
